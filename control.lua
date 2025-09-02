@@ -1,6 +1,10 @@
 ﻿--control.lua
 --This mod scans the map for gun-turrets, vehicles and artillery and places alerts when they are low on ammo.
 
+--requires
+
+require(util)
+
 --util functions
 
 function table_is_empty(table)
